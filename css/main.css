@@ -1,0 +1,42 @@
+
+#navbar {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(0,0,0,0.2);
+	margin-left: 0;
+	margin-right: 0;
+	position: fixed;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+#gif-name {
+	font-size: 23px;
+	color: white;
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (max-width: 767px){
+	
+}
+
+
+
+

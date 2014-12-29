@@ -1,0 +1,30 @@
+application: clever-spirit-808
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /images
+  static_dir: images
+
+- url: /php
+  static_dir: php
+
+# Bootstrap glyphicons
+- url: /fonts
+  static_dir: fonts
+
+- url: /phpQuery.php
+  static_dir: phpQuery.php
+
+- url: /timeout.html
+  script: timeout.html
+
+- url: /.*
+  script: index.php
